@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Counter from "./Counter";
 import LikeButton from './LikeButton'
+import LudoBoard from './LudoBoard'
 
 
 
@@ -12,9 +13,10 @@ function App() {
   
   return(
     <>
-      <h1>React States</h1>
+      {/* <h1>React States</h1> */}
       {/* <Counter/> */}
-      <LikeButton/>
+      {/* <LikeButton/> */}
+      <LudoBoard/>
     </>
   )
 }

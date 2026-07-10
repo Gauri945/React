@@ -8,9 +8,15 @@ export default function Counter(){
 //     count+=1;
 //     console.log(count);
 //    }
-let[count , setcount] = useState(0);
+
+function init(){
+    return Math.random();
+}
+let[count , setcount] = useState(init);
 let inccount =() =>{
-    setcount(count+1);
+    setcount((currcount)=>{
+        return currcount+1;
+    });
 }
 
     return(

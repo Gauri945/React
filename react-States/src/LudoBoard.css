@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+}
+
+.container{
+    width: 450px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+h2{
+    color: #333;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.player{
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.player p{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+button{
+    padding: 8px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+.blue{
+    background: #2196f3;
+}
+
+.yellow{
+    background: #ffeb3b;
+    color: black;
+}
+
+.green{
+    background: #4caf50;
+}
+
+.red{
+    background: #f44336;
+}
