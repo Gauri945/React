@@ -1,0 +1,76 @@
+/* Page Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main Container */
+div {
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Ticket Box */
+.ticket {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border: 3px solid #333;
+    border-radius: 15px;
+    background: white;
+    width: 260px;
+    margin: auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Ticket Numbers */
+.ticket span {
+    width: 60px;
+    height: 60px;
+    background: #4CAF50;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Button */
+button {
+    margin-top: 25px;
+    padding: 10px 22px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background: #ff9800;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #e68900;
+    transform: scale(1.05);
+}
+
+/* Winning Message */
+h3 {
+    margin-top: 20px;
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+}

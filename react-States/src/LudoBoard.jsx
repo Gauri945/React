@@ -11,7 +11,7 @@ export default function LudoBoard() {
     });
 
     const updateBlue = () => {
-        setMoves(prev => ({ ...prev, blue: prev.blue + 1 }));   //object mai ese update nhi ya rerender nhi so we use spred 
+        setMoves(prev => ({ ...prev, blue: prev.blue + 1 }));   //object or Array mai ese update nhi ya rerender nhi so we use spred 
     };
 
     const updateYellow = () => {
