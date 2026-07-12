@@ -7,6 +7,8 @@ import Counter from "./Counter";
 import LikeButton from './LikeButton'
 import LudoBoard from './LudoBoard'
 import Lottery from './Lottery'
+import Form from './Form'
+import CommentForm from './Comments'
 
 
 
@@ -18,7 +20,9 @@ function App() {
       {/* <Counter/> */}
       {/* <LikeButton/> */}
       {/* <LudoBoard/> */}
-      <Lottery/>
+      {/* <Lottery/> */}
+      {/* <Form/> */}
+      <CommentForm/>
     </>
   )
 }
